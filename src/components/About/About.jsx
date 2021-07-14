@@ -1,10 +1,16 @@
-function About() {
+import React from "react";
 
-    return (
-        <div>
-        
-        </div>
-    )
+import Nav from "../Nav/Nav";
+
+function About() {
+  return (
+    <div className="App" id="page-container">
+      <div id="content-wrap">
+        <Nav />
+        <p>Hi there</p>
+      </div>
+    </div>
+  );
 }
 
 export default About;
