@@ -4,13 +4,12 @@
   align-items: flex-start;
   text-align: center;
   width: 100%;
-  margin: 0 0 15px;
   padding: 5px;
   background-color: #43a047;
   overflow: hidden;
   position: absolute;
   bottom: 0;
-  
+  height: 82px;
 }
 
 .nav a {
