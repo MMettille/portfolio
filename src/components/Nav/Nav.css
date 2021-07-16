@@ -1,8 +1,10 @@
 .nav {
     align-items: center;
-    margin: 0 0 30px;
+    width: 100%;
     background-color: #43a047;
     overflow: hidden;
+    position: absolute;
+    bottom: 0;
   }
   
   .nav a {
@@ -16,12 +18,9 @@
     color: #f2f2f2;
     background-color: #43a047;
     text-align: center;
-    padding: 24px 10px;
+    padding: 24px 30px;
     text-decoration: none;
     font-size: 15px;
-  
-    /* these last two make the logout button in
-    the nav bar look like another link */
     border: none;
     cursor: pointer;
     outline: 0;
