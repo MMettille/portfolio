@@ -2,9 +2,9 @@ import React from "react";
 
 function Resume() {
   return (
-    <div className="App" id="page-container">
+    <div className="App" id="resume">
       <div id="content-wrap">
-        <p>Hi there</p>
+        <p>Resume</p>
       </div>
     </div>
   );

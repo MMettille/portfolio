@@ -1,14 +1,14 @@
 import React from "react";
 
 
-function About() {
+function Contact() {
   return (
     <div className="App" id="about">
       <div id="content-wrap">
-        <p>About</p>
+        <p>Contact</p>
       </div>
     </div>
   );
 }
 
-export default About;
+export default Contact;

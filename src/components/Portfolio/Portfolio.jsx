@@ -2,9 +2,9 @@ import React from "react";
 
 function Portfolio() {
   return (
-    <div className="App" id="page-container">
+    <div className="App" id="portfolio">
       <div id="content-wrap">
-        <p>Hi there</p>
+        <p>Portfolio</p>
       </div>
     </div>
   );

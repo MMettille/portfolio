@@ -10,7 +10,7 @@ import LandingPage from "../LandingPage/LandingPage.jsx";
 import Portfolio from "../Portfolio/Portfolio";
 import Resume from "../Resume/Resume";
 import Nav from "../Nav/Nav";
-
+import Contact from "../Contact/Contact"
 function App() {
   return (
     <div className="App">
@@ -18,7 +18,7 @@ function App() {
       <About />
       <Resume />
       <Portfolio />
-
+      <Contact />
       <Nav />
     </div>
   );
