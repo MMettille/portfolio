@@ -7,7 +7,9 @@ function LandingPage() {
         <>
             <div className="header">
                 <IconButton>
-                    <GitHubIcon />
+                    <GitHubIcon 
+                    onClick={() => window.open("https://github.com/MMettille")}
+                    />
                 </IconButton>
             </div>
             <h1>Hullo there, I'm Mary.</h1>
