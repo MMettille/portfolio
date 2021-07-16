@@ -5,6 +5,7 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import SvgIcon from "@material-ui/core/SvgIcon";
+import Button from '@material-ui/core/Button';
 import LocalCafeIcon from "@material-ui/icons/LocalCafe";
 import IconButton from "@material-ui/core/IconButton";
 import GitHubIcon from "@material-ui/icons/GitHub";
@@ -22,15 +23,13 @@ function Portfolio() {
           icon={<LocalCafeIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            Group Capstone Project
+            Group Capstone Project -
           </h3>
-          <h4 className="vertical-timeline-element-subtitle">TBD</h4>
+          <h3 className="vertical-timeline-element-subtitle">Your Path</h3>
           <p id="description">
             The capstone group project at Prime has us building an app for a
             local nonprofit.
           </p>
-          <button>Click here to see the code</button>
-          <button>Click here to see the deployed app</button>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
@@ -103,15 +102,16 @@ function Portfolio() {
           }
         >
           <h3 className="vertical-timeline-element-title">
-            Solo Capstone Project
+            Solo Capstone Project -
           </h3>
-          <h4 className="vertical-timeline-element-subtitle">TBD</h4>
+          <h3 className="vertical-timeline-element-subtitle">Quiet The Bees</h3>
           <p id="description">
-            The capstone group project at Prime has us building an app for a
-            local nonprofit.
+          An app for neurodivergent brains that encourages them to stay on task, increase productivity, and track mood and mental health.
           </p>
-          <button>Click here to see the code</button>
-          <button>Click here to see the deployed app</button>
+          <Button variant="outlined"
+          onClick={() => window.open("https://mmettille-quiet-the-bees.herokuapp.com/#/landingpage")}>
+            See the deployed App
+          </Button>
         </VerticalTimelineElement>
       </VerticalTimeline>
     </div>
