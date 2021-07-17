@@ -31,3 +31,7 @@ li {
   margin-top: 15px !important;
   list-style-type: none;
 }
+
+a {
+  text-decoration: none !important;
+}

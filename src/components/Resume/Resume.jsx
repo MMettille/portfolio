@@ -10,14 +10,29 @@ import Button from "@material-ui/core/Button";
 import LocalCafeIcon from "@material-ui/icons/LocalCafe";
 import WorkIcon from "@material-ui/icons/Work";
 import SchoolIcon from "@material-ui/icons/School";
+import GetAppIcon from '@material-ui/icons/GetApp';
+import { makeStyles } from '@material-ui/core/styles';
 
-import { makeStyles } from "@material-ui/core/styles";
+import resume from './MaryMettille-Resume.pdf';
 
+const useStyles = makeStyles((theme) => ({
+  button: {
+    margin: theme.spacing(2),
+  },
+}));
 function Resume() {
+  const classes = useStyles();
   return (
     <div className="App" id="resume">
       <h1>Experience and Education</h1>
-      <h3>Click here to Download My Resume</h3>
+      <a href={resume} download>
+      <Button 
+      variant="contained"
+      color="primary"
+      className={classes.button}
+      startIcon={<GetAppIcon />}
+      >Download My Resume</Button>
+      </a>
       <div>
         <VerticalTimeline>
           <VerticalTimelineElement
