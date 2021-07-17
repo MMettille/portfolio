@@ -28,5 +28,6 @@ h4 {
 }
 
 li {
-  margin-top: 10px !important;
+  margin-top: 15px !important;
+  list-style-type: none;
 }
