@@ -13,8 +13,8 @@ function Nav() {
 
   return (
     <div className="nav">
-      <h3 className="nav-title">Mary Mettille</h3>
-      <div className="nav-left">
+
+      {/* <div className="nav-left">
         
         <IconButton>
           <GitHubIcon
@@ -32,11 +32,44 @@ function Nav() {
             }
           />
         </IconButton>
-      </div>
+      </div> */}
       <div className="nav-right">
         <p className="nav-link" onClick={scrollToTop}>
           Home
         </p>
+        <Link
+          className="nav-link"
+          activeClass="active"
+          to="about"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
+        >
+          About
+        </Link>
+        <Link
+          className="nav-link"
+          activeClass="active"
+          to="resume"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
+        >
+          Resume
+        </Link>
+        <Link
+          className="nav-link"
+          activeClass="active"
+          to="tech"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
+        >
+          Tech
+        </Link>
         <Link
           className="nav-link"
           activeClass="active"
@@ -51,29 +84,9 @@ function Nav() {
 
         {/* This will actually open up a pdf in another page? That page will be a pdf of my resume. Or somewhere on my page there will be
         a button to download my resume? */}
-        <Link
-          className="nav-link"
-          activeClass="active"
-          to="resume"
-          spy={true}
-          smooth={true}
-          offset={-70}
-          duration={500}
-        >
-          Resume
-        </Link>
+        
 
-        <Link
-          className="nav-link"
-          activeClass="active"
-          to="about"
-          spy={true}
-          smooth={true}
-          offset={-70}
-          duration={500}
-        >
-          About
-        </Link>
+        
 
         <Link
           className="nav-link"

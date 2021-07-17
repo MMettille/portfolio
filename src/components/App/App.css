@@ -21,3 +21,12 @@ body, html {
 .push{
   height: 82px;
 }
+
+h4 {
+  font-style: italic;
+  margin-top: 10px !important;
+}
+
+li {
+  margin-top: 10px !important;
+}
