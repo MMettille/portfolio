@@ -35,3 +35,8 @@ li {
 a {
   text-decoration: none !important;
 }
+
+img{
+  width: auto;
+  height: 80px;
+}
