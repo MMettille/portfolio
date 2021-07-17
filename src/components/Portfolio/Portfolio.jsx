@@ -28,18 +28,71 @@ const useStyles = makeStyles({
   disabled: {},
 });
 
+const CSharpIcon = () => {
+  return (
+    <SvgIcon viewBox="0 0 256 288" xmlns="http://www.w3.org/2000/svg">
+      <g>
+        <path
+          d="M255.569,84.452376 C255.567,79.622376 254.534,75.354376 252.445,71.691376 C250.393,68.089376 247.32,65.070376 243.198,62.683376 C209.173,43.064376 175.115,23.505376 141.101,3.86637605 C131.931,-1.42762395 123.04,-1.23462395 113.938,4.13537605 C100.395,12.122376 32.59,50.969376 12.385,62.672376 C4.064,67.489376 0.015,74.861376 0.013,84.443376 C0,123.898376 0.013,163.352376 0,202.808376 C0,207.532376 0.991,211.717376 2.988,215.325376 C5.041,219.036376 8.157,222.138376 12.374,224.579376 C32.58,236.282376 100.394,275.126376 113.934,283.115376 C123.04,288.488376 131.931,288.680376 141.104,283.384376 C175.119,263.744376 209.179,244.186376 243.209,224.567376 C247.426,222.127376 250.542,219.023376 252.595,215.315376 C254.589,211.707376 255.582,207.522376 255.582,202.797376 C255.582,202.797376 255.582,123.908376 255.569,84.452376"
+          fill="#A179DC"
+          fill-rule="nonzero"
+        ></path>
+        <path
+          d="M128.182,143.241376 L2.988,215.325376 C5.041,219.036376 8.157,222.138376 12.374,224.579376 C32.58,236.282376 100.394,275.126376 113.934,283.115376 C123.04,288.488376 131.931,288.680376 141.104,283.384376 C175.119,263.744376 209.179,244.186376 243.209,224.567376 C247.426,222.127376 250.542,219.023376 252.595,215.315376 L128.182,143.241376"
+          fill="#280068"
+          fill-rule="nonzero"
+        ></path>
+        <path
+          d="M255.569,84.452376 C255.567,79.622376 254.534,75.354376 252.445,71.691376 L128.182,143.241376 L252.595,215.315376 C254.589,211.707376 255.58,207.522376 255.582,202.797376 C255.582,202.797376 255.582,123.908376 255.569,84.452376"
+          fill="#390091"
+          fill-rule="nonzero"
+        ></path>
+        <path
+          d="M201.892326,116.294008 L201.892326,129.767692 L215.36601,129.767692 L215.36601,116.294008 L222.102852,116.294008 L222.102852,129.767692 L235.576537,129.767692 L235.576537,136.504534 L222.102852,136.504534 L222.102852,149.978218 L235.576537,149.978218 L235.576537,156.71506 L222.102852,156.71506 L222.102852,170.188744 L215.36601,170.188744 L215.36601,156.71506 L201.892326,156.71506 L201.892326,170.188744 L195.155484,170.188744 L195.155484,156.71506 L181.6818,156.71506 L181.6818,149.978218 L195.155484,149.978218 L195.155484,136.504534 L181.6818,136.504534 L181.6818,129.767692 L195.155484,129.767692 L195.155484,116.294008 L201.892326,116.294008 Z M215.36601,136.504534 L201.892326,136.504534 L201.892326,149.978218 L215.36601,149.978218 L215.36601,136.504534 Z"
+          fill="#FFFFFF"
+        ></path>
+        <path
+          d="M128.456752,48.625876 C163.600523,48.625876 194.283885,67.7121741 210.718562,96.0819435 L210.558192,95.808876 L169.209615,119.617159 C161.062959,105.823554 146.128136,96.5150717 128.996383,96.3233722 L128.456752,96.3203544 C102.331178,96.3203544 81.1506705,117.499743 81.1506705,143.625316 C81.1506705,152.168931 83.4284453,160.17752 87.3896469,167.094792 C95.543745,181.330045 110.872554,190.931398 128.456752,190.931398 C146.149522,190.931398 161.565636,181.208041 169.67832,166.820563 L169.481192,167.165876 L210.767678,191.083913 C194.51328,219.21347 164.25027,238.240861 129.514977,238.620102 L128.456752,238.625876 C93.2021701,238.625876 62.4315028,219.422052 46.0382398,190.902296 C38.0352471,176.979327 33.4561922,160.837907 33.4561922,143.625316 C33.4561922,91.1592636 75.9884604,48.625876 128.456752,48.625876 Z"
+          fill="#FFFFFF"
+          fill-rule="nonzero"
+        ></path>
+      </g>
+    </SvgIcon>
+  );
+};
+
+const ReactIcon = () => {
+  return (
+    <SvgIcon viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+      <g
+        transform="matrix(.05696 0 0 .05696 .647744 2.43826)"
+        fill="none"
+        fill-rule="evenodd"
+      >
+        <circle r="50.167" cy="237.628" cx="269.529" fill="#00d8ff" />
+        <g stroke="#00d8ff" stroke-width="24">
+          <path d="M269.53 135.628c67.356 0 129.928 9.665 177.107 25.907 56.844 19.57 91.794 49.233 91.794 76.093 0 27.99-37.04 59.503-98.083 79.728-46.15 15.29-106.88 23.272-170.818 23.272-65.554 0-127.63-7.492-174.3-23.44-59.046-20.182-94.61-52.103-94.61-79.56 0-26.642 33.37-56.076 89.415-75.616 47.355-16.51 111.472-26.384 179.486-26.384z" />
+          <path d="M180.736 186.922c33.65-58.348 73.28-107.724 110.92-140.48C337.006 6.976 380.163-8.48 403.43 4.937c24.248 13.983 33.042 61.814 20.067 124.796-9.8 47.618-33.234 104.212-65.176 159.6-32.75 56.788-70.25 106.82-107.377 139.272-46.98 41.068-92.4 55.93-116.185 42.213-23.08-13.3-31.906-56.92-20.834-115.233 9.355-49.27 32.832-109.745 66.8-168.664z" />
+          <path d="M180.82 289.482C147.075 231.2 124.1 172.195 114.51 123.227c-11.544-59-3.382-104.11 19.864-117.566 24.224-14.024 70.055 2.244 118.14 44.94 36.356 32.28 73.688 80.837 105.723 136.173 32.844 56.733 57.46 114.21 67.036 162.582 12.117 61.213 2.31 107.984-21.453 121.74-23.057 13.348-65.25-.784-110.24-39.5-38.013-32.71-78.682-83.253-112.76-142.115z" />
+        </g>
+      </g>
+    </SvgIcon>
+  );
+};
+
 function Portfolio() {
   const classes = useStyles();
 
   return (
     <div id="portfolio">
+      <h1>Portfolio of Work</h1>
+      <h3>A highlight of my latest projects!</h3>
       <VerticalTimeline>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          contentStyle={{ background: "rgb(54, 201, 111)", color: "#212121" }}
-          contentArrowStyle={{ borderRight: "7px solid  rgb(54, 201, 111)" }}
+          contentStyle={{ borderTop: "7px solid rgb(54, 201, 111)" }}
           iconStyle={{ background: "rgb(54, 201, 111)", color: "#212121" }}
-          icon={<LocalCafeIcon />}
+          icon={<ReactIcon />}
         >
           <h3 className="vertical-timeline-element-title">
             Group Capstone Project -
@@ -52,8 +105,7 @@ function Portfolio() {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          contentStyle={{ background: "rgb(75, 136, 201)", color: "#212121" }}
-          contentArrowStyle={{ borderRight: "7px solid  rgb(75, 136, 201)" }}
+          contentStyle={{ borderTop: "7px solid rgb(75, 136, 201)" }}
           iconStyle={{ background: "rgb(75, 136, 201)", color: "#212121" }}
           icon={
             <SvgIcon
@@ -166,44 +218,14 @@ function Portfolio() {
               )
             }
           >
-            See the deployed App
+            See the Deployed App
           </Button>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          contentStyle={{ background: "rgb(54, 201, 111)", color: "#212121" }}
-          contentArrowStyle={{ borderRight: "7px solid  rgb(54, 201, 111)" }}
+          contentStyle={{ borderTop: "7px solid rgb(54, 201, 111)" }}
           iconStyle={{ background: "rgb(54, 201, 111)", color: "#212121" }}
-          icon={
-            <SvgIcon viewBox="0 0 256 288" xmlns="http://www.w3.org/2000/svg">
-              <g>
-                <path
-                  d="M255.569,84.452376 C255.567,79.622376 254.534,75.354376 252.445,71.691376 C250.393,68.089376 247.32,65.070376 243.198,62.683376 C209.173,43.064376 175.115,23.505376 141.101,3.86637605 C131.931,-1.42762395 123.04,-1.23462395 113.938,4.13537605 C100.395,12.122376 32.59,50.969376 12.385,62.672376 C4.064,67.489376 0.015,74.861376 0.013,84.443376 C0,123.898376 0.013,163.352376 0,202.808376 C0,207.532376 0.991,211.717376 2.988,215.325376 C5.041,219.036376 8.157,222.138376 12.374,224.579376 C32.58,236.282376 100.394,275.126376 113.934,283.115376 C123.04,288.488376 131.931,288.680376 141.104,283.384376 C175.119,263.744376 209.179,244.186376 243.209,224.567376 C247.426,222.127376 250.542,219.023376 252.595,215.315376 C254.589,211.707376 255.582,207.522376 255.582,202.797376 C255.582,202.797376 255.582,123.908376 255.569,84.452376"
-                  fill="#A179DC"
-                  fill-rule="nonzero"
-                ></path>
-                <path
-                  d="M128.182,143.241376 L2.988,215.325376 C5.041,219.036376 8.157,222.138376 12.374,224.579376 C32.58,236.282376 100.394,275.126376 113.934,283.115376 C123.04,288.488376 131.931,288.680376 141.104,283.384376 C175.119,263.744376 209.179,244.186376 243.209,224.567376 C247.426,222.127376 250.542,219.023376 252.595,215.315376 L128.182,143.241376"
-                  fill="#280068"
-                  fill-rule="nonzero"
-                ></path>
-                <path
-                  d="M255.569,84.452376 C255.567,79.622376 254.534,75.354376 252.445,71.691376 L128.182,143.241376 L252.595,215.315376 C254.589,211.707376 255.58,207.522376 255.582,202.797376 C255.582,202.797376 255.582,123.908376 255.569,84.452376"
-                  fill="#390091"
-                  fill-rule="nonzero"
-                ></path>
-                <path
-                  d="M201.892326,116.294008 L201.892326,129.767692 L215.36601,129.767692 L215.36601,116.294008 L222.102852,116.294008 L222.102852,129.767692 L235.576537,129.767692 L235.576537,136.504534 L222.102852,136.504534 L222.102852,149.978218 L235.576537,149.978218 L235.576537,156.71506 L222.102852,156.71506 L222.102852,170.188744 L215.36601,170.188744 L215.36601,156.71506 L201.892326,156.71506 L201.892326,170.188744 L195.155484,170.188744 L195.155484,156.71506 L181.6818,156.71506 L181.6818,149.978218 L195.155484,149.978218 L195.155484,136.504534 L181.6818,136.504534 L181.6818,129.767692 L195.155484,129.767692 L195.155484,116.294008 L201.892326,116.294008 Z M215.36601,136.504534 L201.892326,136.504534 L201.892326,149.978218 L215.36601,149.978218 L215.36601,136.504534 Z"
-                  fill="#FFFFFF"
-                ></path>
-                <path
-                  d="M128.456752,48.625876 C163.600523,48.625876 194.283885,67.7121741 210.718562,96.0819435 L210.558192,95.808876 L169.209615,119.617159 C161.062959,105.823554 146.128136,96.5150717 128.996383,96.3233722 L128.456752,96.3203544 C102.331178,96.3203544 81.1506705,117.499743 81.1506705,143.625316 C81.1506705,152.168931 83.4284453,160.17752 87.3896469,167.094792 C95.543745,181.330045 110.872554,190.931398 128.456752,190.931398 C146.149522,190.931398 161.565636,181.208041 169.67832,166.820563 L169.481192,167.165876 L210.767678,191.083913 C194.51328,219.21347 164.25027,238.240861 129.514977,238.620102 L128.456752,238.625876 C93.2021701,238.625876 62.4315028,219.422052 46.0382398,190.902296 C38.0352471,176.979327 33.4561922,160.837907 33.4561922,143.625316 C33.4561922,91.1592636 75.9884604,48.625876 128.456752,48.625876 Z"
-                  fill="#FFFFFF"
-                  fill-rule="nonzero"
-                ></path>
-              </g>
-            </SvgIcon>
-          }
+          icon={<CSharpIcon />}
         >
           <Button
             disabled
@@ -242,9 +264,7 @@ function Portfolio() {
           <Button
             variant="outlined"
             onClick={() =>
-              window.open(
-                "https://github.com/MMettille/pet-hotel-backend"
-              )
+              window.open("https://github.com/MMettille/pet-hotel-backend")
             }
           >
             See the Code
@@ -252,25 +272,58 @@ function Portfolio() {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          contentStyle={{ background: "rgb(75, 136, 201)", color: "#212121" }}
-          contentArrowStyle={{ borderRight: "7px solid  rgb(75, 136, 201)" }}
+          contentStyle={{ borderTop: "7px solid rgb(75, 136, 201)" }}
           iconStyle={{ background: "rgb(75, 136, 201)", color: "#212121" }}
-          icon={
-            <SvgIcon
-            viewBox="0 0 32 32"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-                <g transform="matrix(.05696 0 0 .05696 .647744 2.43826)" fill="none" fill-rule="evenodd">
-                  <circle r="50.167" cy="237.628" cx="269.529" fill="#00d8ff"/>
-                  <g stroke="#00d8ff" stroke-width="24">
-                    <path d="M269.53 135.628c67.356 0 129.928 9.665 177.107 25.907 56.844 19.57 91.794 49.233 91.794 76.093 0 27.99-37.04 59.503-98.083 79.728-46.15 15.29-106.88 23.272-170.818 23.272-65.554 0-127.63-7.492-174.3-23.44-59.046-20.182-94.61-52.103-94.61-79.56 0-26.642 33.37-56.076 89.415-75.616 47.355-16.51 111.472-26.384 179.486-26.384z"/>
-                    <path d="M180.736 186.922c33.65-58.348 73.28-107.724 110.92-140.48C337.006 6.976 380.163-8.48 403.43 4.937c24.248 13.983 33.042 61.814 20.067 124.796-9.8 47.618-33.234 104.212-65.176 159.6-32.75 56.788-70.25 106.82-107.377 139.272-46.98 41.068-92.4 55.93-116.185 42.213-23.08-13.3-31.906-56.92-20.834-115.233 9.355-49.27 32.832-109.745 66.8-168.664z"/>
-                    <path d="M180.82 289.482C147.075 231.2 124.1 172.195 114.51 123.227c-11.544-59-3.382-104.11 19.864-117.566 24.224-14.024 70.055 2.244 118.14 44.94 36.356 32.28 73.688 80.837 105.723 136.173 32.844 56.733 57.46 114.21 67.036 162.582 12.117 61.213 2.31 107.984-21.453 121.74-23.057 13.348-65.25-.784-110.24-39.5-38.013-32.71-78.682-83.253-112.76-142.115z"/>
-                    </g>
-                    </g>
-             
-            </SvgIcon>
-          }
+          icon={<ReactIcon />}
+        >
+          <Button
+            disabled
+            variant="outlined"
+            classes={{
+              root: classes.root, // class name, e.g. `root-x`
+              disabled: classes.disabled, // class name, e.g. `disabled-x`
+            }}
+          >
+            REACT
+          </Button>
+          <Button
+            disabled
+            variant="outlined"
+            classes={{
+              root: classes.root, // class name, e.g. `root-x`
+              disabled: classes.disabled, // class name, e.g. `disabled-x`
+            }}
+          >
+            Redux-Saga
+          </Button>
+          <Button
+            disabled
+            variant="outlined"
+            classes={{
+              root: classes.root, // class name, e.g. `root-x`
+              disabled: classes.disabled, // class name, e.g. `disabled-x`
+            }}
+          >
+            am4charts
+          </Button>
+          <h3 className="vertical-timeline-element-subtitle">Feedback Form</h3>
+          <p id="description">
+          A feedback form built for Prime Digital Academy to assess how their students are processing their immersive education.
+          </p>
+          <Button
+            variant="outlined"
+            onClick={() =>
+              window.open("https://mmettille-feedback-form.herokuapp.com/#/")
+            }
+          >
+            See the Deployed App
+          </Button>
+        </VerticalTimelineElement>
+         <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentStyle={{ borderTop: "7px solid rgb(54, 201, 111)" }}
+          iconStyle={{ background: "rgb(54, 201, 111)", color: "#212121" }}
+          icon={<ReactIcon />}
         >
           <Button
             disabled
@@ -302,25 +355,685 @@ function Portfolio() {
           >
             Material-Ui
           </Button>
-          <h3 className="vertical-timeline-element-subtitle">Quiet The Bees</h3>
+          <h3 className="vertical-timeline-element-subtitle">Movie Library</h3>
           <p id="description">
-          This project allows users to interact with a database of movies. Upon 
-          load of the homepage, the user is able to click on the the movie post 
-          to display the details of the movie - including the summary and genres. 
-          From the details page, the user is able to edit both the details and summary, 
-          and save it to the database.
+            This project allows users to interact with a database of movies.
+            Upon load of the homepage, the user is able to click on the the
+            movie post to display the details of the movie - including the
+            summary and genres. From the details page, the user is able to edit
+            both the details and summary, and save it to the database.
           </p>
           <Button
             variant="outlined"
             onClick={() =>
-              window.open(
-                "https://mmettille-quiet-the-bees.herokuapp.com/#/landingpage"
-              )
+              window.open("https://github.com/MMettille/weekend-movie-sagas")
             }
           >
-            See the deployed App
+            See the Code
           </Button>
         </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentStyle={{ borderTop: "7px solid rgb(75, 136, 201)" }}
+          iconStyle={{ background: "rgb(75, 136, 201)", color: "#212121" }}
+          icon={<ReactIcon />}
+        >
+          <Button
+            disabled
+            variant="outlined"
+            classes={{
+              root: classes.root, // class name, e.g. `root-x`
+              disabled: classes.disabled, // class name, e.g. `disabled-x`
+            }}
+          >
+            REACT
+          </Button>
+          <Button
+            disabled
+            variant="outlined"
+            classes={{
+              root: classes.root, // class name, e.g. `root-x`
+              disabled: classes.disabled, // class name, e.g. `disabled-x`
+            }}
+          >
+            Node.js
+          </Button>
+          <Button
+            disabled
+            variant="outlined"
+            classes={{
+              root: classes.root, // class name, e.g. `root-x`
+              disabled: classes.disabled, // class name, e.g. `disabled-x`
+            }}
+          >
+            Javascript
+          </Button>
+          <h3 className="vertical-timeline-element-subtitle">My Favorite Hikes</h3>
+          <p id="description">
+          A photo gallery app with the capacity to display a list of images,
+          use a "like" button to track and display the total number of likes that a photo has,
+           and to use conditional rendering to display a description of the photo when clicked.
+          </p>
+          <Button
+            variant="outlined"
+            onClick={() =>
+              window.open("https://github.com/MMettille/my-favorite-hikes")
+            }
+          >
+            See the Code
+          </Button>
+        </VerticalTimelineElement>
+       
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentStyle={{ borderTop: "7px solid rgb(54, 201, 111)" }}
+          iconStyle={{ background: "rgb(54, 201, 111)", color: "#212121" }}
+          icon={<ReactIcon />}
+        >
+          <Button
+            disabled
+            variant="outlined"
+            classes={{
+              root: classes.root, // class name, e.g. `root-x`
+              disabled: classes.disabled, // class name, e.g. `disabled-x`
+            }}
+          >
+            C#
+          </Button>
+          <Button
+            disabled
+            variant="outlined"
+            classes={{
+              root: classes.root, // class name, e.g. `root-x`
+              disabled: classes.disabled, // class name, e.g. `disabled-x`
+            }}
+          >
+            REACT
+          </Button>
+          <Button
+            disabled
+            variant="outlined"
+            classes={{
+              root: classes.root, // class name, e.g. `root-x`
+              disabled: classes.disabled, // class name, e.g. `disabled-x`
+            }}
+          >
+            REDUX-SAGA
+          </Button>
+          <h3 className="vertical-timeline-element-title">Pet Hotel</h3>
+          <p id="description">
+            A pet hotel application for your furry friends.
+          </p>
+          <Button
+            variant="outlined"
+            onClick={() =>
+              window.open("https://github.com/MMettille/pet-hotel-backend")
+            }
+          >
+            See the Code
+          </Button>
+        </VerticalTimelineElement>
+{/* 
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentStyle={{ borderTop: "7px solid rgb(75, 136, 201)" }}
+          iconStyle={{ background: "rgb(75, 136, 201)", color: "#212121" }}
+          icon={<ReactIcon />}
+        >
+          <Button
+            disabled
+            variant="outlined"
+            classes={{
+              root: classes.root, // class name, e.g. `root-x`
+              disabled: classes.disabled, // class name, e.g. `disabled-x`
+            }}
+          >
+            REACT
+          </Button>
+          <Button
+            disabled
+            variant="outlined"
+            classes={{
+              root: classes.root, // class name, e.g. `root-x`
+              disabled: classes.disabled, // class name, e.g. `disabled-x`
+            }}
+          >
+            Redux-Saga
+          </Button>
+          <Button
+            disabled
+            variant="outlined"
+            classes={{
+              root: classes.root, // class name, e.g. `root-x`
+              disabled: classes.disabled, // class name, e.g. `disabled-x`
+            }}
+          >
+            Material-Ui
+          </Button>
+          <h3 className="vertical-timeline-element-subtitle">Movie Library</h3>
+          <p id="description">
+            A feedback form built for Prime Digital Academy to assess how their students are processing their immersive education.
+          </p>
+          <Button
+            variant="outlined"
+            onClick={() =>
+              window.open("https://github.com/MMettille/weekend-movie-sagas")
+            }
+          >
+            See the Code
+          </Button>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentStyle={{ borderTop: "7px solid rgb(54, 201, 111)" }}
+          iconStyle={{ background: "rgb(54, 201, 111)", color: "#212121" }}
+          icon={<ReactIcon />}
+        >
+          <Button
+            disabled
+            variant="outlined"
+            classes={{
+              root: classes.root, // class name, e.g. `root-x`
+              disabled: classes.disabled, // class name, e.g. `disabled-x`
+            }}
+          >
+            C#
+          </Button>
+          <Button
+            disabled
+            variant="outlined"
+            classes={{
+              root: classes.root, // class name, e.g. `root-x`
+              disabled: classes.disabled, // class name, e.g. `disabled-x`
+            }}
+          >
+            REACT
+          </Button>
+          <Button
+            disabled
+            variant="outlined"
+            classes={{
+              root: classes.root, // class name, e.g. `root-x`
+              disabled: classes.disabled, // class name, e.g. `disabled-x`
+            }}
+          >
+            REDUX-SAGA
+          </Button>
+          <h3 className="vertical-timeline-element-title">Pet Hotel</h3>
+          <p id="description">
+            A pet hotel application for your furry friends.
+          </p>
+          <Button
+            variant="outlined"
+            onClick={() =>
+              window.open("https://github.com/MMettille/pet-hotel-backend")
+            }
+          >
+            See the Code
+          </Button>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentStyle={{ borderTop: "7px solid rgb(75, 136, 201)" }}
+          iconStyle={{ background: "rgb(75, 136, 201)", color: "#212121" }}
+          icon={<ReactIcon />}
+        >
+          <Button
+            disabled
+            variant="outlined"
+            classes={{
+              root: classes.root, // class name, e.g. `root-x`
+              disabled: classes.disabled, // class name, e.g. `disabled-x`
+            }}
+          >
+            REACT
+          </Button>
+          <Button
+            disabled
+            variant="outlined"
+            classes={{
+              root: classes.root, // class name, e.g. `root-x`
+              disabled: classes.disabled, // class name, e.g. `disabled-x`
+            }}
+          >
+            Redux-Saga
+          </Button>
+          <Button
+            disabled
+            variant="outlined"
+            classes={{
+              root: classes.root, // class name, e.g. `root-x`
+              disabled: classes.disabled, // class name, e.g. `disabled-x`
+            }}
+          >
+            Material-Ui
+          </Button>
+          <h3 className="vertical-timeline-element-subtitle">Movie Library</h3>
+          <p id="description">
+            This project allows users to interact with a database of movies.
+            Upon load of the homepage, the user is able to click on the the
+            movie post to display the details of the movie - including the
+            summary and genres. From the details page, the user is able to edit
+            both the details and summary, and save it to the database.
+          </p>
+          <Button
+            variant="outlined"
+            onClick={() =>
+              window.open("https://github.com/MMettille/weekend-movie-sagas")
+            }
+          >
+            See the Code
+          </Button>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentStyle={{ borderTop: "7px solid rgb(54, 201, 111)" }}
+          iconStyle={{ background: "rgb(54, 201, 111)", color: "#212121" }}
+          icon={<ReactIcon />}
+        >
+          <Button
+            disabled
+            variant="outlined"
+            classes={{
+              root: classes.root, // class name, e.g. `root-x`
+              disabled: classes.disabled, // class name, e.g. `disabled-x`
+            }}
+          >
+            C#
+          </Button>
+          <Button
+            disabled
+            variant="outlined"
+            classes={{
+              root: classes.root, // class name, e.g. `root-x`
+              disabled: classes.disabled, // class name, e.g. `disabled-x`
+            }}
+          >
+            REACT
+          </Button>
+          <Button
+            disabled
+            variant="outlined"
+            classes={{
+              root: classes.root, // class name, e.g. `root-x`
+              disabled: classes.disabled, // class name, e.g. `disabled-x`
+            }}
+          >
+            REDUX-SAGA
+          </Button>
+          <h3 className="vertical-timeline-element-title">Pet Hotel</h3>
+          <p id="description">
+            A pet hotel application for your furry friends.
+          </p>
+          <Button
+            variant="outlined"
+            onClick={() =>
+              window.open("https://github.com/MMettille/pet-hotel-backend")
+            }
+          >
+            See the Code
+          </Button>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentStyle={{ borderTop: "7px solid rgb(75, 136, 201)" }}
+          iconStyle={{ background: "rgb(75, 136, 201)", color: "#212121" }}
+          icon={<ReactIcon />}
+        >
+          <Button
+            disabled
+            variant="outlined"
+            classes={{
+              root: classes.root, // class name, e.g. `root-x`
+              disabled: classes.disabled, // class name, e.g. `disabled-x`
+            }}
+          >
+            REACT
+          </Button>
+          <Button
+            disabled
+            variant="outlined"
+            classes={{
+              root: classes.root, // class name, e.g. `root-x`
+              disabled: classes.disabled, // class name, e.g. `disabled-x`
+            }}
+          >
+            Redux-Saga
+          </Button>
+          <Button
+            disabled
+            variant="outlined"
+            classes={{
+              root: classes.root, // class name, e.g. `root-x`
+              disabled: classes.disabled, // class name, e.g. `disabled-x`
+            }}
+          >
+            Material-Ui
+          </Button>
+          <h3 className="vertical-timeline-element-subtitle">Movie Library</h3>
+          <p id="description">
+            This project allows users to interact with a database of movies.
+            Upon load of the homepage, the user is able to click on the the
+            movie post to display the details of the movie - including the
+            summary and genres. From the details page, the user is able to edit
+            both the details and summary, and save it to the database.
+          </p>
+          <Button
+            variant="outlined"
+            onClick={() =>
+              window.open("https://github.com/MMettille/weekend-movie-sagas")
+            }
+          >
+            See the Code
+          </Button>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentStyle={{ borderTop: "7px solid rgb(54, 201, 111)" }}
+          iconStyle={{ background: "rgb(54, 201, 111)", color: "#212121" }}
+          icon={<ReactIcon />}
+        >
+          <Button
+            disabled
+            variant="outlined"
+            classes={{
+              root: classes.root, // class name, e.g. `root-x`
+              disabled: classes.disabled, // class name, e.g. `disabled-x`
+            }}
+          >
+            C#
+          </Button>
+          <Button
+            disabled
+            variant="outlined"
+            classes={{
+              root: classes.root, // class name, e.g. `root-x`
+              disabled: classes.disabled, // class name, e.g. `disabled-x`
+            }}
+          >
+            REACT
+          </Button>
+          <Button
+            disabled
+            variant="outlined"
+            classes={{
+              root: classes.root, // class name, e.g. `root-x`
+              disabled: classes.disabled, // class name, e.g. `disabled-x`
+            }}
+          >
+            REDUX-SAGA
+          </Button>
+          <h3 className="vertical-timeline-element-title">Pet Hotel</h3>
+          <p id="description">
+            A pet hotel application for your furry friends.
+          </p>
+          <Button
+            variant="outlined"
+            onClick={() =>
+              window.open("https://github.com/MMettille/pet-hotel-backend")
+            }
+          >
+            See the Code
+          </Button>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentStyle={{ borderTop: "7px solid rgb(75, 136, 201)" }}
+          iconStyle={{ background: "rgb(75, 136, 201)", color: "#212121" }}
+          icon={<ReactIcon />}
+        >
+          <Button
+            disabled
+            variant="outlined"
+            classes={{
+              root: classes.root, // class name, e.g. `root-x`
+              disabled: classes.disabled, // class name, e.g. `disabled-x`
+            }}
+          >
+            REACT
+          </Button>
+          <Button
+            disabled
+            variant="outlined"
+            classes={{
+              root: classes.root, // class name, e.g. `root-x`
+              disabled: classes.disabled, // class name, e.g. `disabled-x`
+            }}
+          >
+            Redux-Saga
+          </Button>
+          <Button
+            disabled
+            variant="outlined"
+            classes={{
+              root: classes.root, // class name, e.g. `root-x`
+              disabled: classes.disabled, // class name, e.g. `disabled-x`
+            }}
+          >
+            Material-Ui
+          </Button>
+          <h3 className="vertical-timeline-element-subtitle">Movie Library</h3>
+          <p id="description">
+            This project allows users to interact with a database of movies.
+            Upon load of the homepage, the user is able to click on the the
+            movie post to display the details of the movie - including the
+            summary and genres. From the details page, the user is able to edit
+            both the details and summary, and save it to the database.
+          </p>
+          <Button
+            variant="outlined"
+            onClick={() =>
+              window.open("https://github.com/MMettille/weekend-movie-sagas")
+            }
+          >
+            See the Code
+          </Button>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentStyle={{ borderTop: "7px solid rgb(54, 201, 111)" }}
+          iconStyle={{ background: "rgb(54, 201, 111)", color: "#212121" }}
+          icon={<ReactIcon />}
+        >
+          <Button
+            disabled
+            variant="outlined"
+            classes={{
+              root: classes.root, // class name, e.g. `root-x`
+              disabled: classes.disabled, // class name, e.g. `disabled-x`
+            }}
+          >
+            C#
+          </Button>
+          <Button
+            disabled
+            variant="outlined"
+            classes={{
+              root: classes.root, // class name, e.g. `root-x`
+              disabled: classes.disabled, // class name, e.g. `disabled-x`
+            }}
+          >
+            REACT
+          </Button>
+          <Button
+            disabled
+            variant="outlined"
+            classes={{
+              root: classes.root, // class name, e.g. `root-x`
+              disabled: classes.disabled, // class name, e.g. `disabled-x`
+            }}
+          >
+            REDUX-SAGA
+          </Button>
+          <h3 className="vertical-timeline-element-title">Pet Hotel</h3>
+          <p id="description">
+            A pet hotel application for your furry friends.
+          </p>
+          <Button
+            variant="outlined"
+            onClick={() =>
+              window.open("https://github.com/MMettille/pet-hotel-backend")
+            }
+          >
+            See the Code
+          </Button>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentStyle={{ borderTop: "7px solid rgb(75, 136, 201)" }}
+          iconStyle={{ background: "rgb(75, 136, 201)", color: "#212121" }}
+          icon={<ReactIcon />}
+        >
+          <Button
+            disabled
+            variant="outlined"
+            classes={{
+              root: classes.root, // class name, e.g. `root-x`
+              disabled: classes.disabled, // class name, e.g. `disabled-x`
+            }}
+          >
+            REACT
+          </Button>
+          <Button
+            disabled
+            variant="outlined"
+            classes={{
+              root: classes.root, // class name, e.g. `root-x`
+              disabled: classes.disabled, // class name, e.g. `disabled-x`
+            }}
+          >
+            Redux-Saga
+          </Button>
+          <Button
+            disabled
+            variant="outlined"
+            classes={{
+              root: classes.root, // class name, e.g. `root-x`
+              disabled: classes.disabled, // class name, e.g. `disabled-x`
+            }}
+          >
+            Material-Ui
+          </Button>
+          <h3 className="vertical-timeline-element-subtitle">Movie Library</h3>
+          <p id="description">
+            This project allows users to interact with a database of movies.
+            Upon load of the homepage, the user is able to click on the the
+            movie post to display the details of the movie - including the
+            summary and genres. From the details page, the user is able to edit
+            both the details and summary, and save it to the database.
+          </p>
+          <Button
+            variant="outlined"
+            onClick={() =>
+              window.open("https://github.com/MMettille/weekend-movie-sagas")
+            }
+          >
+            See the Code
+          </Button>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentStyle={{ borderTop: "7px solid rgb(54, 201, 111)" }}
+          iconStyle={{ background: "rgb(54, 201, 111)", color: "#212121" }}
+          icon={<ReactIcon />}
+        >
+          <Button
+            disabled
+            variant="outlined"
+            classes={{
+              root: classes.root, // class name, e.g. `root-x`
+              disabled: classes.disabled, // class name, e.g. `disabled-x`
+            }}
+          >
+            C#
+          </Button>
+          <Button
+            disabled
+            variant="outlined"
+            classes={{
+              root: classes.root, // class name, e.g. `root-x`
+              disabled: classes.disabled, // class name, e.g. `disabled-x`
+            }}
+          >
+            REACT
+          </Button>
+          <Button
+            disabled
+            variant="outlined"
+            classes={{
+              root: classes.root, // class name, e.g. `root-x`
+              disabled: classes.disabled, // class name, e.g. `disabled-x`
+            }}
+          >
+            REDUX-SAGA
+          </Button>
+          <h3 className="vertical-timeline-element-title">Pet Hotel</h3>
+          <p id="description">
+            A pet hotel application for your furry friends.
+          </p>
+          <Button
+            variant="outlined"
+            onClick={() =>
+              window.open("https://github.com/MMettille/pet-hotel-backend")
+            }
+          >
+            See the Code
+          </Button>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentStyle={{ borderTop: "7px solid rgb(75, 136, 201)" }}
+          iconStyle={{ background: "rgb(75, 136, 201)", color: "#212121" }}
+          icon={<ReactIcon />}
+        >
+          <Button
+            disabled
+            variant="outlined"
+            classes={{
+              root: classes.root, // class name, e.g. `root-x`
+              disabled: classes.disabled, // class name, e.g. `disabled-x`
+            }}
+          >
+            REACT
+          </Button>
+          <Button
+            disabled
+            variant="outlined"
+            classes={{
+              root: classes.root, // class name, e.g. `root-x`
+              disabled: classes.disabled, // class name, e.g. `disabled-x`
+            }}
+          >
+            Redux-Saga
+          </Button>
+          <Button
+            disabled
+            variant="outlined"
+            classes={{
+              root: classes.root, // class name, e.g. `root-x`
+              disabled: classes.disabled, // class name, e.g. `disabled-x`
+            }}
+          >
+            Material-Ui
+          </Button>
+          <h3 className="vertical-timeline-element-subtitle">Movie Library</h3>
+          <p id="description">
+            This project allows users to interact with a database of movies.
+            Upon load of the homepage, the user is able to click on the the
+            movie post to display the details of the movie - including the
+            summary and genres. From the details page, the user is able to edit
+            both the details and summary, and save it to the database.
+          </p>
+          <Button
+            variant="outlined"
+            onClick={() =>
+              window.open("https://github.com/MMettille/weekend-movie-sagas")
+            }
+          >
+            See the Code
+          </Button>
+        </VerticalTimelineElement> */}
       </VerticalTimeline>
     </div>
   );
