@@ -5,21 +5,39 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import SvgIcon from "@material-ui/core/SvgIcon";
-import Button from '@material-ui/core/Button';
+import Button from "@material-ui/core/Button";
 import LocalCafeIcon from "@material-ui/icons/LocalCafe";
 import IconButton from "@material-ui/core/IconButton";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import "./Portfolio.css";
+import { makeStyles } from "@material-ui/core/styles";
+
+const useStyles = makeStyles({
+  root: {
+    margin: 5,
+    borderRadius: 50,
+    border: 1,
+    color: "black",
+    height: 48,
+    "&$disabled": {
+      color: "black",
+      boxShadow: "none",
+    },
+  },
+  disabled: {},
+});
 
 function Portfolio() {
+  const classes = useStyles();
+
   return (
     <div id="portfolio">
       <VerticalTimeline>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          contentStyle={{ background: "rgb(33, 150, 243)", color: "#212121" }}
-          contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
-          iconStyle={{ background: "rgb(33, 150, 243)", color: "#212121" }}
+          contentStyle={{ background: "rgb(54, 201, 111)", color: "#212121" }}
+          contentArrowStyle={{ borderRight: "7px solid  rgb(54, 201, 111)" }}
+          iconStyle={{ background: "rgb(54, 201, 111)", color: "#212121" }}
           icon={<LocalCafeIcon />}
         >
           <h3 className="vertical-timeline-element-title">
@@ -33,9 +51,9 @@ function Portfolio() {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          contentStyle={{ background: "rgb(233, 30, 99)", color: "#212121" }}
-          contentArrowStyle={{ borderRight: "7px solid  rgb(233, 30, 99)" }}
-          iconStyle={{ background: "rgb(233, 30, 99)", color: "#212121" }}
+          contentStyle={{ background: "rgb(75, 136, 201)", color: "#212121" }}
+          contentArrowStyle={{ borderRight: "7px solid  rgb(75, 136, 201)" }}
+          iconStyle={{ background: "rgb(75, 136, 201)", color: "#212121" }}
           icon={
             <SvgIcon
               viewBox="0 0 448.8 558.1"
@@ -101,15 +119,52 @@ function Portfolio() {
             </SvgIcon>
           }
         >
+          <Button
+            disabled
+            variant="outlined"
+            classes={{
+              root: classes.root, // class name, e.g. `root-x`
+              disabled: classes.disabled, // class name, e.g. `disabled-x`
+            }}
+          >
+            REACT
+          </Button>
+          <Button
+            disabled
+            variant="outlined"
+            classes={{
+              root: classes.root, // class name, e.g. `root-x`
+              disabled: classes.disabled, // class name, e.g. `disabled-x`
+            }}
+          >
+            Redux-Saga
+          </Button>
+          <Button
+            disabled
+            variant="outlined"
+            classes={{
+              root: classes.root, // class name, e.g. `root-x`
+              disabled: classes.disabled, // class name, e.g. `disabled-x`
+            }}
+          >
+            Passport.js
+          </Button>
           <h3 className="vertical-timeline-element-title">
             Solo Capstone Project -
           </h3>
           <h3 className="vertical-timeline-element-subtitle">Quiet The Bees</h3>
           <p id="description">
-          An app for neurodivergent brains that encourages them to stay on task, increase productivity, and track mood and mental health.
+            An app for neurodivergent brains that encourages them to stay on
+            task, increase productivity, and track mood and mental health.
           </p>
-          <Button variant="outlined"
-          onClick={() => window.open("https://mmettille-quiet-the-bees.herokuapp.com/#/landingpage")}>
+          <Button
+            variant="outlined"
+            onClick={() =>
+              window.open(
+                "https://mmettille-quiet-the-bees.herokuapp.com/#/landingpage"
+              )
+            }
+          >
             See the deployed App
           </Button>
         </VerticalTimelineElement>
