@@ -11,6 +11,8 @@ import Portfolio from "../Portfolio/Portfolio";
 import Resume from "../Resume/Resume";
 import Nav from "../Nav/Nav";
 import Contact from "../Contact/Contact";
+import Tech from "../Tech/Tech";
+
 function App() {
   return (
     <div className="App">
@@ -18,6 +20,7 @@ function App() {
       <LandingPage />
         <About />
         <Resume />
+        <Tech />
         <Portfolio />
         <Contact />
         <div class="push"></div>

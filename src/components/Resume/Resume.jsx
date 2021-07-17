@@ -6,9 +6,10 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 import SvgIcon from "@material-ui/core/SvgIcon";
 import Button from "@material-ui/core/Button";
+
 import LocalCafeIcon from "@material-ui/icons/LocalCafe";
-import IconButton from "@material-ui/core/IconButton";
-import GitHubIcon from "@material-ui/icons/GitHub";
+import WorkIcon from '@material-ui/icons/Work';
+import SchoolIcon from '@material-ui/icons/School';
 
 import { makeStyles } from "@material-ui/core/styles";
 
@@ -23,6 +24,7 @@ function Resume() {
           className="vertical-timeline-element--work"
           contentStyle={{ borderTop: "7px solid rgb(75, 136, 201)" }}
           iconStyle={{ background: "rgb(75, 136, 201)", color: "#212121" }}
+          icon={<WorkIcon />}
           >
 
           </VerticalTimelineElement>
