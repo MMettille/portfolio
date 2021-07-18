@@ -1,24 +1,25 @@
-
 .App {
   text-align: center;
 }
 
-body, html {
+body,
+html {
   height: 100%;
   margin: 0;
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
-  background: #e0e0e0
+  background: #e0e0e0;
 }
 
 .wrapper {
   min-height: 100%;
-    height: auto !important;
-    height: 100%;
-    margin: 0 auto -82px;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -82px;
+  padding: 0px 40px;
 }
 
-.push{
+.push {
   height: 82px;
 }
 
@@ -36,7 +37,4 @@ a {
   text-decoration: none !important;
 }
 
-img{
-  width: auto;
-  height: 80px;
-}
+

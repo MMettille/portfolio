@@ -1,11 +1,12 @@
 .header {
-    width: 100%;
-    background-color: #43a047;
-    overflow: hidden;
-    text-align: right;
+  width: 100%;
+  background-color: #43a047;
+  overflow: hidden;
+  text-align: right;
 }
 
-.landing{
-  background-image: url(https://wallpaperaccess.com/full/2389930.jpg);
-  background-size: cover;
+.landing {
+  max-width: 100%;
+  max-height: 100vh;
+  margin: auto;
 }
