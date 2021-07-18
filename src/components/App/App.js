@@ -16,8 +16,8 @@ import Tech from "../Tech/Tech";
 function App() {
   return (
     <div className="App">
-      <div className="wrapper">
       <LandingPage />
+      <div className="wrapper">
         <About />
         <Resume />
         <Tech />
