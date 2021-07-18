@@ -1,10 +1,32 @@
 .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  text-align: center;
+  height: 4rem;
   width: 100%;
   background-color: #43a047;
   overflow: hidden;
-  text-align: right;
 }
 
+.header-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #e0e0e0;
+  padding-left: 10px;
+  width: 100%;
+}
+
+.header-link {  
+    color: #e0e0e0;
+    margin: 8px;
+    border: none;
+    
+}
+
+.header-right {
+  width: 100%;
+}
 .landing {
   background-image: url("https://freerangestock.com/sample/124870/coffee-and-laptop.jpg");
   height: 100vh;

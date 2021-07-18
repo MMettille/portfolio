@@ -33,7 +33,7 @@ function Nav() {
           />
         </IconButton>
       </div> */}
-      <div className="nav-right">
+      <div className="header-right">
         <p className="nav-link" onClick={scrollToTop}>
           Home
         </p>
