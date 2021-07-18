@@ -10,6 +10,7 @@ function LandingPage() {
         <div className="header">
           <div className="header-left">
           <h1 className="header-title">Mary Mettille</h1>
+          <h4 className="header-text-color">Full Stack Software Engineer Babyyyyy - Minneapolis, MN</h4>
           </div>
           
           <div className="header-right">
@@ -31,6 +32,7 @@ function LandingPage() {
             </IconButton>
           </div>
         </div>
+        <img className="profile-picture" src="https://media-exp1.licdn.com/dms/image/D5635AQHtDplBzkDDqQ/profile-framedphoto-shrink_400_400/0/1621007211801?e=1626667200&v=beta&t=jmZwiaFBvz1tt6aK4vMYdw5ZdqzrL0A8XYMm2z-9lg4" />
       </div>
     </>
   );
