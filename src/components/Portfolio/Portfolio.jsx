@@ -120,8 +120,8 @@ function Portfolio() {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          contentStyle={{ borderTop: "7px solid rgb(75, 136, 201)" }}
-          iconStyle={{ background: "rgb(75, 136, 201)", color: "#212121" }}
+          contentStyle={{ borderTop: "7px solid #039be5" }}
+          iconStyle={{ background: "#039be5", color: "#212121" }}
           icon={
             <SvgIcon
               viewBox="0 0 448.8 558.1"
@@ -288,8 +288,8 @@ function Portfolio() {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          contentStyle={{ borderTop: "7px solid rgb(54, 201, 111)" }}
-          iconStyle={{ background: "rgb(54, 201, 111)", color: "#212121" }}
+          contentStyle={{ borderTop: "7px solid #039be5" }}
+          iconStyle={{ background: "#039be5", color: "#212121" }}
           icon={<JQueryIcon />}
         >
           <Button
@@ -387,8 +387,8 @@ function Portfolio() {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          contentStyle={{ borderTop: "7px solid rgb(54, 201, 111)" }}
-          iconStyle={{ background: "rgb(54, 201, 111)", color: "#212121" }}
+          contentStyle={{ borderTop: "7px solid #039be5" }}
+          iconStyle={{ background: "#039be5", color: "#212121" }}
           icon={<CSharpIcon />}
         >
           <Button
@@ -488,8 +488,8 @@ function Portfolio() {
        
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          contentStyle={{ borderTop: "7px solid rgb(54, 201, 111)" }}
-          iconStyle={{ background: "rgb(54, 201, 111)", color: "#212121" }}
+          contentStyle={{ borderTop: "7px solid #039be5" }}
+          iconStyle={{ background: "#039be5", color: "#212121" }}
           icon={<ReactIcon />}
         >
           <Button
@@ -595,8 +595,8 @@ function Portfolio() {
  
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          contentStyle={{ borderTop: "7px solid rgb(75, 136, 201)" }}
-          iconStyle={{ background: "rgb(75, 136, 201)", color: "#212121" }}
+          contentStyle={{ borderTop: "7px solid #039be5" }}
+          iconStyle={{ background: "#039be5", color: "#212121" }}
           icon={<ReactIcon />}
         >
           <Button
