@@ -9,7 +9,7 @@ function Nav() {
 
   return (
     <div className="nav">
-      <div className="header-right">
+      <div className="nav-right">
         <p className="nav-link" onClick={scrollToTop}>
           Home
         </p>
