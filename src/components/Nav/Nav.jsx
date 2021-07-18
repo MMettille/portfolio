@@ -1,9 +1,6 @@
 import React from "react";
 import { Link, animateScroll as scroll } from "react-scroll";
-import IconButton from "@material-ui/core/IconButton";
-import GitHubIcon from "@material-ui/icons/GitHub";
-import LinkedInIcon from "@material-ui/icons/LinkedIn";
-
+import BottomNavigation from '@material-ui/core/BottomNavigation';
 import "./Nav.css";
 
 function Nav() {
@@ -11,28 +8,11 @@ function Nav() {
     scroll.scrollToTop();
   };
 
+  const [value, setValue] = React.useState(0);
+  
   return (
+    <BottomNavigation>
     <div className="nav">
-
-      {/* <div className="nav-left">
-        
-        <IconButton>
-          <GitHubIcon
-            className="nav-link"
-            onClick={() => window.open("https://github.com/MMettille")}
-          />
-        </IconButton>
-        <IconButton>
-          <LinkedInIcon
-            className="nav-link"
-            onClick={() =>
-              window.open(
-                "https://www.linkedin.com/in/mary-mettille-9220601a1/"
-              )
-            }
-          />
-        </IconButton>
-      </div> */}
       <div className="header-right">
         <p className="nav-link" onClick={scrollToTop}>
           Home
@@ -101,6 +81,7 @@ function Nav() {
         </Link>
       </div>
     </div>
+    </BottomNavigation>
   );
 }
 

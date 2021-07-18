@@ -8,7 +8,10 @@ function LandingPage() {
     <>
       <div className="landing">
         <div className="header">
+          <div className="header-left">
           <h1 className="header-title">Mary Mettille</h1>
+          </div>
+          
           <div className="header-right">
             <IconButton>
               <GitHubIcon

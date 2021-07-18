@@ -3,10 +3,15 @@
   justify-content: space-between;
   align-items: flex-start;
   text-align: center;
+  padding-top: 10px 0px;
   height: 4rem;
   width: 100%;
-  background-color: #43a047;
+  background-color: #1a237e;
   overflow: hidden;
+}
+
+.header-left{
+  width: 100%;
 }
 
 .header-title {
@@ -14,7 +19,6 @@
   font-weight: 700;
   color: #e0e0e0;
   padding-left: 10px;
-  width: 100%;
 }
 
 .header-link {  
