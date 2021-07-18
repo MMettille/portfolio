@@ -1,6 +1,5 @@
 import React from "react";
 import { Link, animateScroll as scroll } from "react-scroll";
-import BottomNavigation from '@material-ui/core/BottomNavigation';
 import "./Nav.css";
 
 function Nav() {
@@ -8,10 +7,7 @@ function Nav() {
     scroll.scrollToTop();
   };
 
-  const [value, setValue] = React.useState(0);
-  
   return (
-    <BottomNavigation>
     <div className="nav">
       <div className="header-right">
         <p className="nav-link" onClick={scrollToTop}>
@@ -64,9 +60,6 @@ function Nav() {
 
         {/* This will actually open up a pdf in another page? That page will be a pdf of my resume. Or somewhere on my page there will be
         a button to download my resume? */}
-        
-
-        
 
         <Link
           className="nav-link"
@@ -81,7 +74,6 @@ function Nav() {
         </Link>
       </div>
     </div>
-    </BottomNavigation>
   );
 }
 
