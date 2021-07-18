@@ -1,5 +1,4 @@
 import "./LandingPage.css";
-import IconButton from "@material-ui/core/IconButton";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import Button from "@material-ui/core/Button";

@@ -141,15 +141,16 @@ function Tech() {
         </div>
       </div>
       <p>
-      I am a creative person to my core - you will often times find me knitting, quilting, or crafting in my spare time. As such, my passion very
-      much lies in front end developing; creating interactive, engaging, and accessible user-facing applications brings me immense joy. You will
-      most likely hear me reference how I have added to my crafting repertoire by learning how to cast digital witchcraft by turning my ideas, and the ideas
-      of my clients, into reality.
+      I am a creative person to my core - you will often times find me knitting, quilting, or crafting
+      in my spare time. As such, my passion very much lies in front end developing; creating interactive, 
+      engaging, and accessible user-facing applications brings me immense joy. You will most likely hear me 
+      reference how I have added to my crafting repertoire by learning how to cast digital witchcraft by turning
+       my ideas, and the ideas of my clients, into reality.
       </p>
       <p>
         I love learning new technologies and pushing the boundaries of my comfort and understanding; 
-        bring me a problem that I can work for days! When I set my mind to something - solving a puzzle, learning a new language, or hunting down a 
-        bug in my 
+        I strongly believe that it is in that space that one learns the most about the material and themselves.
+        I am a colossol champion of self-care and mental-health and ask questions early and often.
       </p>
     </div>
   );
