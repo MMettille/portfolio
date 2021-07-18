@@ -37,9 +37,9 @@ function Resume() {
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ borderTop: "7px solid #00897b" }}
+            contentStyle={{ borderTop: "7px solid #039be5" }}
             date="February 2021 - Present"
-            iconStyle={{ background: "#00897b", color: "#212121" }}
+            iconStyle={{ background: "#039be5", color: "#212121" }}
             icon={<WorkIcon />}
           >
             <h3 className="vertical-timeline-element-title">
@@ -57,9 +57,9 @@ function Resume() {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ borderTop: "7px solid #00897b" }}
+            contentStyle={{ borderTop: "7px solid #039be5" }}
             date="May 2019 - May 2021"
-            iconStyle={{ background: "#00897b", color: "#212121" }}
+            iconStyle={{ background: "#039be5", color: "#212121" }}
             icon={<WorkIcon />}
           >
             <h3 className="vertical-timeline-element-title">
@@ -76,9 +76,9 @@ function Resume() {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ borderTop: "7px solid #00897b" }}
+            contentStyle={{ borderTop: "7px solid #039be5" }}
             date="May 2019 - May 2021"
-            iconStyle={{ background: "#00897b", color: "#212121" }}
+            iconStyle={{ background: "#039be5", color: "#212121" }}
             icon={<WorkIcon />}
           >
             <h3 className="vertical-timeline-element-title">
@@ -94,9 +94,9 @@ function Resume() {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ borderTop: "7px solid #00897b" }}
+            contentStyle={{ borderTop: "7px solid #039be5" }}
             date="May 2017 - May 2019"
-            iconStyle={{ background: "#00897b", color: "#212121" }}
+            iconStyle={{ background: "#039be5", color: "#212121" }}
             icon={<WorkIcon />}
           >
             <h3 className="vertical-timeline-element-title">
@@ -111,9 +111,9 @@ function Resume() {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ borderTop: "7px solid #00897b" }}
+            contentStyle={{ borderTop: "7px solid #039be5" }}
             date="November 2012 - May 2019"
-            iconStyle={{ background: "#00897b", color: "#212121" }}
+            iconStyle={{ background: "#039be5", color: "#212121" }}
             icon={<LocalCafeIcon />}
           >
             <h3 className="vertical-timeline-element-title">
