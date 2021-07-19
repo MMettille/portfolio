@@ -1,0 +1,111 @@
+[debug] [2021-07-19T18:21:46.782Z] ----------------------------------------------------------------------
+[debug] [2021-07-19T18:21:46.782Z] Command:       /opt/homebrew/Cellar/node/16.1.0/bin/node /opt/homebrew/bin/firebase emulators:start
+[debug] [2021-07-19T18:21:46.783Z] CLI Version:   9.16.0
+[debug] [2021-07-19T18:21:46.783Z] Platform:      darwin
+[debug] [2021-07-19T18:21:46.783Z] Node Version:  v16.1.0
+[debug] [2021-07-19T18:21:46.783Z] Time:          Mon Jul 19 2021 13:21:46 GMT-0500 (Central Daylight Time)
+[debug] [2021-07-19T18:21:46.783Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-07-19T18:21:46.810Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-07-19T18:21:46.810Z] > authorizing via signed-in user (mary.mettille.brist@gmail.com)
+[info] i  emulators: Starting emulators: database, hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: database, hosting"}}
+[debug] [2021-07-19T18:21:46.819Z] [hub] writing locator at /var/folders/4d/t0_4rjv52898mc4wdyr0zd080000gn/T/hub-mmettilleportfolio.json
+[debug] [2021-07-19T18:21:46.877Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/mmettilleportfolio [none]
+[debug] [2021-07-19T18:21:47.183Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/mmettilleportfolio 200
+[debug] [2021-07-19T18:21:47.183Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/mmettilleportfolio {"projectId":"mmettilleportfolio","projectNumber":"432680751389","displayName":"MMettilleportfolio","name":"projects/mmettilleportfolio","resources":{"hostingSite":"mmettilleportfolio","realtimeDatabaseInstance":"mmettilleportfolio-default-rtdb"},"state":"ACTIVE"}
+[debug] [2021-07-19T18:21:47.184Z] database rules config:  [{"instance":"mmettilleportfolio-default-rtdb","rules":"/Users/mmettille/code/portfolio/database.rules.json"}]
+[debug] [2021-07-19T18:21:47.187Z] Ignoring unsupported arg: projectId {"metadata":{"emulator":{"name":"database"},"message":"Ignoring unsupported arg: projectId"}}
+[debug] [2021-07-19T18:21:47.188Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"database"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2021-07-19T18:21:47.188Z] Ignoring unsupported arg: rules {"metadata":{"emulator":{"name":"database"},"message":"Ignoring unsupported arg: rules"}}
+[debug] [2021-07-19T18:21:47.188Z] Starting Database Emulator with command {"binary":"java","args":["-Duser.language=en","-jar","/Users/mmettille/.cache/firebase/emulators/firebase-database-emulator-v4.7.2.jar","--host","localhost","--port",9000],"optionalArgs":["port","host","functions_emulator_port","functions_emulator_host"],"joinArgs":false} {"metadata":{"emulator":{"name":"database"},"message":"Starting Database Emulator with command {\"binary\":\"java\",\"args\":[\"-Duser.language=en\",\"-jar\",\"/Users/mmettille/.cache/firebase/emulators/firebase-database-emulator-v4.7.2.jar\",\"--host\",\"localhost\",\"--port\",9000],\"optionalArgs\":[\"port\",\"host\",\"functions_emulator_port\",\"functions_emulator_host\"],\"joinArgs\":false}"}}
+[info] i  database: Database Emulator logging to database-debug.log {"metadata":{"emulator":{"name":"database"},"message":"Database Emulator logging to \u001b[1mdatabase-debug.log\u001b[22m"}}
+[debug] [2021-07-19T18:21:48.901Z] 13:21:48.900 [NamespaceSystem-akka.actor.default-dispatcher-5] INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+ {"metadata":{"emulator":{"name":"database"},"message":"13:21:48.900 [NamespaceSystem-akka.actor.default-dispatcher-5] INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started\n"}}
+[debug] [2021-07-19T18:21:49.042Z] 13:21:49.041 [main] INFO com.firebase.server.forge.App$ - Listening at localhost:9000
+ {"metadata":{"emulator":{"name":"database"},"message":"13:21:49.041 [main] INFO com.firebase.server.forge.App$ - Listening at localhost:9000\n"}}
+[debug] [2021-07-19T18:21:49.248Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/mmettilleportfolio/sites 
+[debug] [2021-07-19T18:21:49.663Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/mmettilleportfolio/sites 200
+[debug] [2021-07-19T18:21:49.663Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/mmettilleportfolio/sites {"sites":[{"name":"projects/432680751389/sites/mmettilleportfolio","defaultUrl":"https://mmettilleportfolio.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2021-07-19T18:21:49.663Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/mmettilleportfolio/webApps/-/config [none]
+[debug] [2021-07-19T18:21:50.255Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/mmettilleportfolio/webApps/-/config 200
+[debug] [2021-07-19T18:21:50.255Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/mmettilleportfolio/webApps/-/config {"projectId":"mmettilleportfolio","databaseURL":"https://mmettilleportfolio-default-rtdb.firebaseio.com","storageBucket":"mmettilleportfolio.appspot.com","apiKey":"AIzaSyDuDZRCRmAALcIRE-TwXRId_3nxhqddW4g","authDomain":"mmettilleportfolio.firebaseapp.com","messagingSenderId":"432680751389"}
+[info] i  hosting: Serving hosting files from: public {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mpublic\u001b[22m"}}
+[info] ✔  hosting: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
+[debug] [2021-07-19T18:21:50.555Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2021-07-19T18:21:50.555Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2021-07-19T18:21:50.555Z] Starting Emulator UI with command {"binary":"node","args":["/Users/mmettille/.cache/firebase/emulators/ui-v1.6.0/server.bundle.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"/Users/mmettille/.cache/firebase/emulators/ui-v1.6.0/server.bundle.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2021-07-19T18:21:50.609Z] Web / API server started at localhost:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at localhost:4000\n"}}
+[debug] [2021-07-19T18:21:50.817Z] >>> HTTP REQUEST PUT http://localhost:9000/.settings/rules.json?ns=mmettilleportfolio-default-rtdb  
+ {
+  /* Visit https://firebase.google.com/docs/database/security to learn more about security rules. */
+  "rules": {
+    ".read": false,
+    ".write": false
+  }
+}
+[debug] [2021-07-19T18:21:51.441Z] <<< HTTP RESPONSE 200 {"content-length":"15","content-type":"application/json; charset=utf-8","access-control-allow-origin":"*","cache-control":"no-cache","x-firebase-project-id":"mmettilleportfolio-default-rtdb","x-firebase-project-number":"123456789","x-firebase-uuid":"90027e86-f72a-4cfe-8013-0c08f68af3d1"}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://localhost:4000                │
+└─────────────────────────────────────────────────────────────┘
+
+┌──────────┬────────────────┬────────────────────────────────┐
+│ Emulator │ Host:Port      │ View in Emulator UI            │
+├──────────┼────────────────┼────────────────────────────────┤
+│ Database │ localhost:9000 │ http://localhost:4000/database │
+├──────────┼────────────────┼────────────────────────────────┤
+│ Hosting  │ localhost:5000 │ n/a                            │
+└──────────┴────────────────┴────────────────────────────────┘
+  Emulator Hub running at localhost:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[info] i  hosting: 127.0.0.1 - - [19/Jul/2021:18:22:09 +0000] "GET / HTTP/1.1" 200 4526 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [19/Jul/2021:18:22:09 +0000] \"GET / HTTP/1.1\" 200 4526 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [19/Jul/2021:18:22:10 +0000] "GET /__/firebase/init.js?useEmulator=true HTTP/1.1" 200 - "http://localhost:5000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [19/Jul/2021:18:22:10 +0000] \"GET /__/firebase/init.js?useEmulator=true HTTP/1.1\" 200 - \"http://localhost:5000/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36\""}}
+[debug] [2021-07-19T18:22:16.009Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js.map [none]
+[debug] [2021-07-19T18:22:16.016Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/8.7.1/firebase-messaging.js.map [none]
+[debug] [2021-07-19T18:22:16.018Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/8.7.1/firebase-storage.js.map [none]
+[debug] [2021-07-19T18:22:16.019Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/8.7.1/firebase-auth.js.map [none]
+[debug] [2021-07-19T18:22:16.020Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/8.7.1/firebase-database.js.map [none]
+[debug] [2021-07-19T18:22:16.021Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/8.7.1/firebase-firestore.js.map [none]
+[debug] [2021-07-19T18:22:16.178Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/8.7.1/firebase-messaging.js.map 200
+[debug] [2021-07-19T18:22:16.179Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/8.7.1/firebase-messaging.js.map [stream]
+[debug] [2021-07-19T18:22:16.184Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js.map 200
+[debug] [2021-07-19T18:22:16.184Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js.map [stream]
+[debug] [2021-07-19T18:22:16.191Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/8.7.1/firebase-auth.js.map 200
+[debug] [2021-07-19T18:22:16.191Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/8.7.1/firebase-auth.js.map [stream]
+[debug] [2021-07-19T18:22:16.199Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/8.7.1/firebase-database.js.map 200
+[debug] [2021-07-19T18:22:16.199Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/8.7.1/firebase-database.js.map [stream]
+[debug] [2021-07-19T18:22:16.200Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/8.7.1/firebase-firestore.js.map 200
+[debug] [2021-07-19T18:22:16.201Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/8.7.1/firebase-firestore.js.map [stream]
+[debug] [2021-07-19T18:22:16.202Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/8.7.1/firebase-storage.js.map 200
+[debug] [2021-07-19T18:22:16.203Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/8.7.1/firebase-storage.js.map [stream]
+[info] i  hosting: 127.0.0.1 - - [19/Jul/2021:18:22:16 +0000] "GET /__/firebase/8.7.1/firebase-app.js.map HTTP/1.1" 200 114990 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [19/Jul/2021:18:22:16 +0000] \"GET /__/firebase/8.7.1/firebase-app.js.map HTTP/1.1\" 200 114990 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36\""}}
+[debug] [2021-07-19T18:22:16.304Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/8.7.1/firebase-functions.js.map [none]
+[info] i  hosting: 127.0.0.1 - - [19/Jul/2021:18:22:16 +0000] "GET /__/firebase/8.7.1/firebase-messaging.js.map HTTP/1.1" 200 179391 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [19/Jul/2021:18:22:16 +0000] \"GET /__/firebase/8.7.1/firebase-messaging.js.map HTTP/1.1\" 200 179391 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36\""}}
+[debug] [2021-07-19T18:22:16.312Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/8.7.1/firebase-remote-config.js.map [none]
+[info] i  hosting: 127.0.0.1 - - [19/Jul/2021:18:22:16 +0000] "GET /__/firebase/8.7.1/firebase-storage.js.map HTTP/1.1" 200 233165 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [19/Jul/2021:18:22:16 +0000] \"GET /__/firebase/8.7.1/firebase-storage.js.map HTTP/1.1\" 200 233165 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36\""}}
+[debug] [2021-07-19T18:22:16.427Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/8.7.1/firebase-performance.js.map [none]
+[debug] [2021-07-19T18:22:16.558Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/8.7.1/firebase-functions.js.map 200
+[debug] [2021-07-19T18:22:16.559Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/8.7.1/firebase-functions.js.map [stream]
+[debug] [2021-07-19T18:22:16.629Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/8.7.1/firebase-performance.js.map 200
+[debug] [2021-07-19T18:22:16.629Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/8.7.1/firebase-performance.js.map [stream]
+[debug] [2021-07-19T18:22:16.743Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/8.7.1/firebase-remote-config.js.map 200
+[debug] [2021-07-19T18:22:16.743Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/8.7.1/firebase-remote-config.js.map [stream]
+[info] i  hosting: 127.0.0.1 - - [19/Jul/2021:18:22:16 +0000] "GET /__/firebase/8.7.1/firebase-performance.js.map HTTP/1.1" 200 202333 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [19/Jul/2021:18:22:16 +0000] \"GET /__/firebase/8.7.1/firebase-performance.js.map HTTP/1.1\" 200 202333 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36\""}}
+[debug] [2021-07-19T18:22:16.873Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/8.7.1/firebase-analytics.js.map [none]
+[info] i  hosting: 127.0.0.1 - - [19/Jul/2021:18:22:16 +0000] "GET /__/firebase/8.7.1/firebase-functions.js.map HTTP/1.1" 200 56125 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [19/Jul/2021:18:22:16 +0000] \"GET /__/firebase/8.7.1/firebase-functions.js.map HTTP/1.1\" 200 56125 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [19/Jul/2021:18:22:16 +0000] "GET /__/firebase/8.7.1/firebase-database.js.map HTTP/1.1" 200 1018721 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [19/Jul/2021:18:22:16 +0000] \"GET /__/firebase/8.7.1/firebase-database.js.map HTTP/1.1\" 200 1018721 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [19/Jul/2021:18:22:16 +0000] "GET /__/firebase/8.7.1/firebase-remote-config.js.map HTTP/1.1" 200 175801 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [19/Jul/2021:18:22:16 +0000] \"GET /__/firebase/8.7.1/firebase-remote-config.js.map HTTP/1.1\" 200 175801 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36\""}}
+[debug] [2021-07-19T18:22:17.072Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/8.7.1/firebase-analytics.js.map 200
+[debug] [2021-07-19T18:22:17.072Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/8.7.1/firebase-analytics.js.map [stream]
+[info] i  hosting: 127.0.0.1 - - [19/Jul/2021:18:22:17 +0000] "GET /__/firebase/8.7.1/firebase-firestore.js.map HTTP/1.1" 200 2110544 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [19/Jul/2021:18:22:17 +0000] \"GET /__/firebase/8.7.1/firebase-firestore.js.map HTTP/1.1\" 200 2110544 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [19/Jul/2021:18:22:17 +0000] "GET /__/firebase/8.7.1/firebase-analytics.js.map HTTP/1.1" 200 178968 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [19/Jul/2021:18:22:17 +0000] \"GET /__/firebase/8.7.1/firebase-analytics.js.map HTTP/1.1\" 200 178968 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [19/Jul/2021:18:22:17 +0000] "GET /__/firebase/8.7.1/firebase-auth.js.map HTTP/1.1" 200 2397738 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [19/Jul/2021:18:22:17 +0000] \"GET /__/firebase/8.7.1/firebase-auth.js.map HTTP/1.1\" 200 2397738 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [19/Jul/2021:18:25:37 +0000] "GET / HTTP/1.1" 200 1717 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [19/Jul/2021:18:25:37 +0000] \"GET / HTTP/1.1\" 200 1717 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [19/Jul/2021:18:25:37 +0000] "GET /%PUBLIC_URL%/favicon.ico HTTP/1.1" 500 - "http://localhost:5000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [19/Jul/2021:18:25:37 +0000] \"GET /%PUBLIC_URL%/favicon.ico HTTP/1.1\" 500 - \"http://localhost:5000/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [19/Jul/2021:18:25:37 +0000] "GET /%PUBLIC_URL%/manifest.json HTTP/1.1" 500 - "http://localhost:5000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [19/Jul/2021:18:25:37 +0000] \"GET /%PUBLIC_URL%/manifest.json HTTP/1.1\" 500 - \"http://localhost:5000/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36\""}}
