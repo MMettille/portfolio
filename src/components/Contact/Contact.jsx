@@ -20,7 +20,7 @@ function Contact() {
   const classes = useStyles();
 
   return (
-    <div className="App" id="contact">
+    <div className="App" id="about">
       <div id="content-wrap">
         <p>
         There are several different mediums to reach me if you would like to network
