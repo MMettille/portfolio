@@ -50,7 +50,7 @@ function Tech() {
         <div className="skill-container">
           <img
             className="technolgoy-image"
-            src="https://lh3.googleusercontent.com/proxy/U5bF_b3viOadmoRuCYMEo9BoycnpTqrhMnNkTNtpz-BJTo2Rq7c2Cc5SxGG7VZjZlp5kOPyuqzzPNxLyoyIR_cmeMfANzR87"
+            src="https://lh3.googleusercontent.com/proxy/9_leDBHF1doFmQ_N_uoW16gft0yVXF47-NMdIVBAlyeLA1oZeYPSp6oFOuqzmNwrkV9Vk2VQDrs0UO9yLi08SURy8mPSsKRw"
             alt="Redux Atom logo"
           />
           <p>Redux</p>
