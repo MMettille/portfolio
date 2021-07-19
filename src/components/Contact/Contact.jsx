@@ -31,7 +31,7 @@ function Contact() {
              classes={{
               root: classes.root, // class name, e.g. `root-x`
             }}
-            onClick={() => window.open("https://github.com/MMettille")}
+            onClick={() => window.open("tel:6515000145")}
             startIcon={<PhoneIcon />}
             >
               651-500-0145
@@ -41,7 +41,7 @@ function Contact() {
              classes={{
               root: classes.root, // class name, e.g. `root-x`
             }}
-            onClick={() => window.open("https://github.com/MMettille")}
+            onClick={() => window.open("mailto:mary.mettille.brist@gmail.com")}
             startIcon={<EmailIcon />}
             >
               mary.mettille.brist@gmail.com
