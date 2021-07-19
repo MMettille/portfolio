@@ -10,7 +10,7 @@ function LandingPage() {
           <div className="header-left">
           
           <h1 className="header-title">Mary Mettille</h1>
-          <h4 className="header-text-color">Full Stack Software Engineer Babyyyyy - Minneapolis, MN</h4>
+          <h4 className="header-text-color">Full Stack Software Engineer - Minneapolis, MN</h4>
           </div>
           
           <div className="header-right">
