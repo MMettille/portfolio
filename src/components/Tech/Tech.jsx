@@ -111,7 +111,7 @@ function Tech() {
           <img
             className="technolgoy-image"
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Git_icon.svg/1200px-Git_icon.svg.png"
-            alt="Orange image of branching"
+            alt="Orange code branching"
           />
           <p>Git</p>
         </div>

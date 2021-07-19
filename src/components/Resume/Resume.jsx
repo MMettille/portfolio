@@ -4,7 +4,6 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import SvgIcon from "@material-ui/core/SvgIcon";
 import Button from "@material-ui/core/Button";
 
 import LocalCafeIcon from "@material-ui/icons/LocalCafe";

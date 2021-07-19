@@ -6,9 +6,6 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 import SvgIcon from "@material-ui/core/SvgIcon";
 import Button from "@material-ui/core/Button";
-import LocalCafeIcon from "@material-ui/icons/LocalCafe";
-import IconButton from "@material-ui/core/IconButton";
-import GitHubIcon from "@material-ui/icons/GitHub";
 import "./Portfolio.css";
 import { makeStyles } from "@material-ui/core/styles";
 
