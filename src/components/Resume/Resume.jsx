@@ -140,11 +140,11 @@ function Resume() {
               Prime Digital Academy
             </h3>
             <h4 className="vertical-timeline-element-subtitle">Full Stack Software Engineering Certification</h4>
-            <ul id="description">
-              <li>Full time, high-intensity program where I learned multiple programming languages and best practices in both frontend and backend environments.</li>
-              <li>Engaged in lectures, projects, study groups, group projects, client collaboration entirely remotely.</li>
-              <li>Cultivated soft skills such as collaboration, public speaking, timeliness, and self-motivation.</li>
-            </ul>
+            <p id="description">
+            Full time, high-intensity 20-week program that trains software engineers using HTML 5, CSS 3, Javascript, 
+            jQuery, React, Node.js, and C#. The program focuses on building front-end and back-end technical skills, 
+            as well as developing soft skills such as public speaking, collaboration, and working in an entirely remote environment.
+            </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
