@@ -46,13 +46,15 @@ function Resume() {
             </h3>
             <h4 className="vertical-timeline-element-subtitle">Full Stack Software Development Student</h4>
             <p id="description">
-              <section>Solo Project: Quiet The Bees</section> Built an app for neurodivergent brains that encourages them to stay on 
-              task, increase productivity, and track mood and mental health.
+            Full time, high-intensity program where I learned multiple programming languages and best practices in both front and back end environments
             </p>
             <p id="description">
-              <section>Group Project: Your Path</section> Building an app for Your Path, a local business that is advocating for recovery-oriented
-              care and treatment for those on the road to recovery.
+            Engaged in lectures, projects, study groups, group projects, and client collaboration entirely remotely.
             </p>
+            <p id="description">
+            Cultivated soft skills such as collaboration, public speaking, timeliness and self-motivation.
+            </p>
+
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
