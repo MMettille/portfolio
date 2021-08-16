@@ -37,7 +37,7 @@ function Resume() {
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             contentStyle={{ borderTop: "7px solid #039be5" }}
-            date="February 2021 - Present"
+            date="February 2021 - August 2021"
             iconStyle={{ background: "#039be5", color: "#212121" }}
             icon={<WorkIcon />}
           >

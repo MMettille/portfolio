@@ -155,6 +155,16 @@ function Portfolio() {
             manual work - with this application they will be able to completely
             automate that process!
           </p>
+          <Button
+            variant="outlined"
+            onClick={() =>
+              window.open(
+                "https://github.com/MMettille/Your-Path"
+              )
+            }
+          >
+            See the Code
+          </Button>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
