@@ -34,6 +34,20 @@ function Resume() {
       </a>
       <div>
         <VerticalTimeline>
+        <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{ borderTop: "7px solid #039be5" }}
+            date="August 2021 - Present"
+            iconStyle={{ background: "#039be5", color: "#212121" }}
+            icon={<WorkIcon />}
+          >
+            <h3 className="vertical-timeline-element-title">
+              Freelance
+            </h3>
+            <h4 className="vertical-timeline-element-subtitle">Software Engineer</h4>
+              <li id="description">Building and maintaining a robust database</li>
+              <li id="description">Implementing new features as requested by the client</li>
+          </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             contentStyle={{ borderTop: "7px solid #039be5" }}
@@ -54,7 +68,6 @@ function Resume() {
             <p id="description">
             Cultivated soft skills such as collaboration, public speaking, timeliness and self-motivation.
             </p>
-
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
